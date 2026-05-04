@@ -7,7 +7,10 @@ SharedFields:
 - ID: "2895a16e-c1b8-4e79-959a-802d5bc81a5a"
   Hint: Logo
   Value: |
-    <image mediaid="8cc2a449-e23b-488c-bb23-3d7c7a07f6e7" />
+    <image mediaid="2aa8a40d-751d-4adc-a15c-d736b1ad858f" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "49daa797-4d4f-43f2-8296-984ca94ab16b"
 Languages:
 - Language: en
   Versions:
@@ -32,16 +35,17 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "6e545c55-70f1-49ef-b75f-e10257f0845a"
       Hint: Description
-      Value: <span>Live Boldly. Style Deeply.</span>
+      Value: |
+        <div class="ck-content"><p><span style="background-color:rgb(255,255,255);color:rgb(48,48,48);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:filson-pro, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:-0.32px;orphans:2;text-align:left;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Fund USI: MTA0100AU</span></span><br /><span style="background-color:rgb(255,255,255);color:rgb(48,48,48);"><span style="-webkit-text-stroke-width:0px;display:inline !important;float:none;font-family:filson-pro, sans-serif;font-size:16px;font-style:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-weight:400;letter-spacing:-0.32px;orphans:2;text-align:left;text-decoration-color:initial;text-decoration-style:initial;text-decoration-thickness:initial;text-indent:0px;text-transform:none;white-space:normal;widows:2;word-spacing:0px;">Fund ABN: 74 559 365 913</span></span></p></div>
     - ID: "775b58bb-13a1-426d-86e5-765ad797e407"
       Hint: TitleOne
-      Value: Furniture
+      Value: Careers
     - ID: "79d2d2a7-b0d5-421c-89fb-b7d040f56d26"
       Hint: CopyrightText
       Value: Copyright © 2025
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d0be7b71-5f16-4ea1-9422-041c955615d2"
+      Value: "a9112e64-2cca-4903-9d27-307213d74c9c"
     - ID: "9f2b5ebe-6b3a-4128-b6e9-6b7adf4e86da"
       Hint: PolicyText
       Value: |
@@ -49,16 +53,16 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\mehmet.vanli@sitecore.com
     - ID: "d12db112-ac8e-4701-9186-1c25d7c2c148"
       Hint: TitleTwo
-      Value: Services
+      Value: Terms of Use
     - ID: "d4ce5fe0-92df-4490-8b05-e704cf6f448e"
       Hint: TitleFour
       Value: Follow Us
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250828T082243Z
+      Value: 20260504T030527Z
     - ID: "e646865b-2d8d-4608-a43e-42c7f1d21675"
       Hint: TitleFive
       Value: Install App

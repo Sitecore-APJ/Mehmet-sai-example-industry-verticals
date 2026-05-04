@@ -32,17 +32,17 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link linktype="internal" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" querystring="" target="" class="" text="Fund USI &amp; ABN" title=""/>
+        <link class="" querystring="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" target="" title="" linktype="internal" text="Fund USI &amp; ABN" url="/industry-verticals/forma-lux/Home/Zzz_old/The Lumina Collection" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8ca068e0-5aa7-48a3-835b-3ebbd3f7bacf"
+      Value: "f183ebee-c536-4ff0-adc4-319948ed154c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260501T025454Z
+      Value: 20260504T032753Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -64,10 +64,10 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link class="" querystring="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" target="" title="" linktype="internal" text="La Colección Lumina" />
+        <link class="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" querystring="" anchor="" target="" title="" linktype="internal" text="La Colección Lumina" url="/industry-verticals/forma-lux/Home/Zzz_old/The Lumina Collection" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0287a610-86fe-4a85-9be9-e36d57d84432"
+      Value: "341a1e5b-3620-49e2-b072-926996584d9b"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
@@ -77,7 +77,7 @@ Languages:
         sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260501T025440Z
+      Value: 20260504T032753Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -99,10 +99,10 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link class="" querystring="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" target="" title="" linktype="internal" text="La Collection Lumina" />
+        <link class="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" querystring="" anchor="" target="" title="" linktype="internal" text="La Collection Lumina" url="/industry-verticals/forma-lux/Home/Zzz_old/The Lumina Collection" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "6235b634-c3e4-40ad-837b-ac9fd9120d24"
+      Value: "3aba0c88-db17-4c58-9b07-a48ae0dd93a0"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
@@ -112,7 +112,7 @@ Languages:
         sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260501T025440Z
+      Value: 20260504T032754Z
 - Language: "fr-FR"
   Versions:
   - Version: 1
@@ -134,10 +134,10 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link class="" querystring="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" target="" title="" linktype="internal" text="La Collection Lumina" />
+        <link class="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" querystring="" anchor="" target="" title="" linktype="internal" text="La Collection Lumina" url="/industry-verticals/forma-lux/Home/Zzz_old/The Lumina Collection" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "749c47f0-1b52-428d-8ad8-71e02f4b9e1a"
+      Value: "d044e0cc-0562-4ff3-a354-b3ad576e4a70"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
@@ -147,4 +147,4 @@ Languages:
         sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260501T025440Z
+      Value: 20260504T032753Z

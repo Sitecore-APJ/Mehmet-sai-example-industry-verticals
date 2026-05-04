@@ -8,6 +8,7 @@ import {
   Text,
 } from '@sitecore-content-sdk/nextjs';
 import React from 'react';
+import clsx from 'clsx';
 import AccentLine from '@/assets/icons/accent-line/AccentLine';
 import { CommonStyles } from '@/types/styleFlags';
 
@@ -42,14 +43,57 @@ type FeatureWrapperProps = {
 
 const featuresSectionGradient = 'bg-gradient-to-r from-[#E0FBF2] to-[#66FF75] py-[20px]';
 
+/** Match CMS id case-insensitively (`features2`, `Features2`, …). */
+function isFeaturesCareSuperBenefits(params: { RenderingIdentifier?: string }): boolean {
+  const raw = params.RenderingIdentifier?.trim();
+  return raw?.toLowerCase() === 'features2';
+}
+
+const careSuperBenefitsGridClass =
+  'features-caresuper-benefits__grid container grid grid-cols-1 gap-12 px-4 py-14 md:grid-cols-3 md:gap-10 md:py-16 lg:gap-14 xl:gap-20';
+
+function CareSuperBenefitsColumns({ results }: { results: Feature[] }) {
+  return (
+    <>
+      {results.map((item, index) => {
+        const title = item.featureTitle.jsonValue;
+        const description = item.featureDescription.jsonValue;
+        const image = item.featureImage.jsonValue;
+        return (
+          <div
+            className="features-caresuper-benefits__col flex flex-col items-center text-center"
+            key={index}
+          >
+            <div className="features-caresuper-benefits__icon mb-3">
+              <Image field={image} className="features-caresuper-benefits__icon-img" />
+            </div>
+            <Text
+              tag="h3"
+              className="features-caresuper-benefits__title mb-3 px-1 text-xl font-bold md:text-2xl"
+              field={title}
+            />
+            <div className="features-caresuper-benefits__body max-w-sm px-1 text-base leading-relaxed md:max-w-none md:text-[1.0625rem]">
+              <Text field={description} />
+            </div>
+          </div>
+        );
+      })}
+    </>
+  );
+}
+
 const FeatureWrapper = (wrapperProps: FeatureWrapperProps) => {
-  // rendering item id
   const id = wrapperProps.props.params.RenderingIdentifier;
   const isFeaturesId = id === 'features';
+  const isCareSuperBenefits = isFeaturesCareSuperBenefits(wrapperProps.props.params);
 
   return (
     <section
-      className={`${isFeaturesId ? `${featuresSectionGradient} ` : ''}${wrapperProps.props.params.styles}`}
+      className={clsx(
+        wrapperProps.props.params.styles,
+        isFeaturesId && featuresSectionGradient,
+        isCareSuperBenefits && 'features-section--caresuper-benefits'
+      )}
       id={id ? id : undefined}
     >
       {wrapperProps.children}
@@ -58,10 +102,20 @@ const FeatureWrapper = (wrapperProps: FeatureWrapperProps) => {
 };
 
 export const Default = (props: FeaturesProps) => {
-  // results of the graphql
   const results = props.fields.data.datasource.children.results;
   const hideAccentLine = props.params.styles?.includes(CommonStyles.HideAccentLine);
   const featureSectionTitle = props.fields.data.datasource.title;
+  const careSuper = isFeaturesCareSuperBenefits(props.params);
+
+  if (careSuper) {
+    return (
+      <FeatureWrapper props={props}>
+        <div className={careSuperBenefitsGridClass}>
+          <CareSuperBenefitsColumns results={results} />
+        </div>
+      </FeatureWrapper>
+    );
+  }
 
   return (
     <FeatureWrapper props={props}>
@@ -119,8 +173,18 @@ export const ImageGrid = (props: FeaturesProps) => {
 };
 
 export const ThreeColGridCentered = (props: FeaturesProps) => {
-  // results of the graphql
   const results = props.fields.data.datasource.children.results;
+  const careSuper = isFeaturesCareSuperBenefits(props.params);
+
+  if (careSuper) {
+    return (
+      <FeatureWrapper props={props}>
+        <div className={careSuperBenefitsGridClass}>
+          <CareSuperBenefitsColumns results={results} />
+        </div>
+      </FeatureWrapper>
+    );
+  }
 
   return (
     <FeatureWrapper props={props}>
@@ -224,6 +288,18 @@ export const FourColGrid = (props: FeaturesProps) => {
 
 export const ImageCardGrid = (props: FeaturesProps) => {
   const results = props.fields.data.datasource.children.results;
+  const careSuper = isFeaturesCareSuperBenefits(props.params);
+
+  /* Same id=`features2` CareSuper layout as Default / ThreeColGridCentered — this variant is often chosen in authoring. */
+  if (careSuper) {
+    return (
+      <FeatureWrapper props={props}>
+        <div className={careSuperBenefitsGridClass}>
+          <CareSuperBenefitsColumns results={results} />
+        </div>
+      </FeatureWrapper>
+    );
+  }
 
   return (
     <FeatureWrapper props={props}>

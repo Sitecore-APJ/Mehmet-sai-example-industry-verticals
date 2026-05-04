@@ -10,7 +10,7 @@ SharedFields:
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{FE3FFAA8-9467-4164-AC58-B493B04C7E64}" />
+    <image mediaid="{6C113FE9-4612-4B86-BE2B-29EBCB04289E}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
   Value: "38ba1545-adf5-4de2-a818-bb9057ea90f1"
@@ -110,14 +110,6 @@ Languages:
               <p:d />
             </r>
             <r
-              uid="{9A339F4B-1777-4B78-9764-AFFF7BB42B37}">
-              <p:d />
-            </r>
-            <r
-              uid="{BD02C866-1659-4ED9-8B91-C96C6194E6F3}">
-              <p:d />
-            </r>
-            <r
               uid="{AA415AE0-946D-4EE2-BED7-EF778B1751BE}">
               <p:d />
             </r>
@@ -126,7 +118,7 @@ Languages:
               p:before="*"
               s:ds="d1a5bc7c-2138-4765-a5df-0d79e3e898e1"
               s:id="{02654BA0-74AE-42A4-B384-BCA9B96ADF4B}"
-              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=7"
+              s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7B8562F7F8-721A-4C82-B884-AAF58B44C6B6%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=7"
               s:ph="headless-footer" />
             <r
               uid="{0FD6A3C6-2C0C-45B6-AD72-9E0ACE0B2D84}"
@@ -185,14 +177,14 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "98a4348b-eb7c-4b70-9a05-8abeff3a72e4"
+      Value: "e9fdb6a3-8cf0-477e-969c-a96af748a5a6"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260121T122109Z
+      Value: 20260504T030616Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -210,14 +202,14 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d19a36e6-549f-47e0-b03d-6601ddb71b12"
+      Value: "fbba46e8-7595-4abc-913f-ae5c94a7e877"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260121T122109Z
+      Value: 20260504T030616Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -260,11 +252,11 @@ Languages:
         sitecore\isuru.bandara@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "0fffb182-84db-412d-9073-085d4807616a"
+      Value: "14077482-4209-4d6d-af90-7c84d923ca86"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260121T122109Z
+      Value: 20260504T030616Z

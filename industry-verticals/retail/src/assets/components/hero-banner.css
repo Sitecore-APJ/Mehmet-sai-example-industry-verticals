@@ -1,0 +1,100 @@
+/*
+ * CareSuper-inspired hero treatment for rendering id `herobanner1`:
+ * deep royal blue field + vibrant lime organic shape on the right (behind media).
+ */
+.hero-banner.hero-banner--caresuper {
+  background-color: #003776;
+}
+
+.hero-banner.hero-banner--caresuper .hero-banner__caresuper-blob {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.hero-banner.hero-banner--caresuper .hero-banner__caresuper-blob::before {
+  content: '';
+  position: absolute;
+  right: -14%;
+  bottom: -16%;
+  width: min(82vw, 880px);
+  height: 105%;
+  background: linear-gradient(155deg, #86ff96 0%, #66ff75 40%, #3ddb5c 100%);
+  border-radius: 46% 54% 43% 57% / 40% 44% 56% 60%;
+  transform: rotate(-10deg);
+}
+
+@media (min-width: 1024px) {
+  .hero-banner.hero-banner--caresuper .hero-banner__caresuper-blob::before {
+    right: -10%;
+    bottom: -12%;
+    width: min(54vw, 820px);
+    height: 100%;
+  }
+}
+
+/* Copy block — CareSuper-style navy panel + typography */
+.hero-banner--caresuper .hero-banner__caresuper-panel {
+  background-color: rgb(0 27 61 / 0.94);
+  padding: 1.25rem 1.5rem;
+  border-radius: 2px;
+}
+
+@media (min-width: 1024px) {
+  .hero-banner--caresuper .hero-banner__caresuper-panel {
+    padding: 1.5rem 1.75rem;
+  }
+}
+
+.hero-banner--caresuper .hero-banner__caresuper-headline {
+  font-family: var(--font-heading);
+  font-size: clamp(1.75rem, 3.5vw, 3rem);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+}
+
+.hero-banner--caresuper .hero-banner__caresuper-headline-line--white {
+  color: #fff;
+}
+
+.hero-banner--caresuper .hero-banner__caresuper-headline-line--lime {
+  margin-top: 0.2em;
+  color: #66ff75;
+}
+
+.hero-banner--caresuper .hero-banner__caresuper-headline-single,
+.hero-banner--caresuper .hero-banner__caresuper-headline-editor {
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1.12;
+  color: #fff;
+}
+
+.hero-banner--caresuper .hero-banner__caresuper-tagline-wrap {
+  font-size: clamp(1rem, 1.6vw, 1.3rem);
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.hero-banner--caresuper .hero-banner__caresuper-tagline-wrap .rich-text,
+.hero-banner--caresuper .hero-banner__caresuper-tagline-wrap .rich-text p,
+.hero-banner--caresuper .hero-banner__caresuper-tagline.rich-text,
+.hero-banner--caresuper .hero-banner__caresuper-tagline.rich-text p {
+  color: #fff;
+}
+
+.hero-banner--caresuper .hero-banner__caresuper-tagline-wrap a {
+  color: #66ff75;
+}
+
+.hero-banner--caresuper .hero-banner__caresuper-panel .arrow-btn {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.hero-banner--caresuper .hero-banner__caresuper-panel .arrow-btn::after {
+  @apply bg-white;
+}

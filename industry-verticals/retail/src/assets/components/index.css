@@ -1,4 +1,5 @@
 @import './column-splitter.css';
+@import './hero-banner.css';
 @import './container.css';
 @import './image.css';
 @import './layout.css';
@@ -6,5 +7,6 @@
 @import './rich-text.css';
 @import './title.css';
 @import './carousels.css';
+@import './features.css';
 @import './forms.css';
 @import './sitecore-forms.css';

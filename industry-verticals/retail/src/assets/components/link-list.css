@@ -35,3 +35,97 @@
     @apply hidden;
   }
 }
+
+/*
+ * CareSuper-style quick links (`linklist1`): stacked rows on small screens; horizontal bar from md+.
+ */
+.link-list.link-list--quick-bar {
+  h3 {
+    @apply hidden;
+  }
+
+  ul {
+    @apply flex max-w-full flex-col flex-nowrap gap-0 overflow-hidden rounded-[1.25rem] border border-[#e2e8f0] bg-background shadow-[0_1px_3px_rgb(0_0_0_/6%)];
+    @apply md:flex-row;
+  }
+
+  li {
+    @apply flex w-full flex-none border-[#e8ecf2] border-b last:border-b-0;
+    @apply md:min-w-0 md:flex-1 md:border-e md:border-b-0 md:last:border-e-0;
+  }
+
+  .field-link {
+    @apply flex min-h-[3.25rem] min-w-0 flex-1;
+  }
+
+  .link-list__quick-bar-anchor {
+    @apply text-[#003776] hover:bg-[#f8fafc] flex w-full min-w-0 flex-1 items-center gap-3 px-4 py-4 text-sm font-bold no-underline transition-colors md:gap-3.5 md:px-5 md:py-3.5 md:text-[0.9375rem];
+  }
+
+  .link-list__quick-bar-anchor:hover {
+    @apply underline;
+  }
+
+  .link-list__quick-bar-label {
+    @apply min-w-0 flex-1 text-left leading-snug;
+  }
+
+  .link-list__quick-bar-icon,
+  .link-list__quick-bar-chevron {
+    @apply text-[#003776];
+  }
+
+  .link-list__quick-bar-chevron {
+    @apply opacity-90;
+  }
+}
+
+/*
+ * CareSuper audience utility tabs (`linklist2`): pale mint bar, navy labels, active tab white flush with header below.
+ * Full-bleed edge-to-edge background inside constrained layouts (viewport width + breakout margins).
+ */
+.link-list.link-list--audience-tabs {
+  @apply relative box-border max-w-[100vw] border-t border-[#e5e7eb];
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  background-color: #dff6f1;
+}
+
+.link-list.link-list--audience-tabs .component-content {
+  @apply container mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.link-list.link-list--audience-tabs h3 {
+  @apply hidden;
+}
+
+.link-list.link-list--audience-tabs .link-list__audience-tabs-list {
+  @apply m-0 flex list-none flex-row flex-nowrap items-stretch gap-0 p-0;
+}
+
+.link-list.link-list--audience-tabs .link-list__audience-tabs-item {
+  @apply flex;
+}
+
+.link-list.link-list--audience-tabs .field-link {
+  @apply flex h-full min-h-[2.75rem];
+}
+
+.link-list.link-list--audience-tabs .link-list__audience-tab-anchor {
+  @apply flex h-full items-center px-5 py-2.5 text-sm font-bold text-[#003776] no-underline transition-colors md:px-8 md:py-3 md:text-[0.9375rem];
+  background-color: transparent;
+}
+
+.link-list.link-list--audience-tabs .link-list__audience-tab-anchor:hover {
+  @apply text-[#003776] no-underline;
+  background-color: rgb(255 255 255 / 45%);
+}
+
+.link-list.link-list--audience-tabs .link-list__audience-tab-anchor--active {
+  @apply bg-white text-[#003776];
+}
+
+.link-list.link-list--audience-tabs .link-list__audience-tab-anchor--active:hover {
+  @apply bg-white text-[#003776];
+}

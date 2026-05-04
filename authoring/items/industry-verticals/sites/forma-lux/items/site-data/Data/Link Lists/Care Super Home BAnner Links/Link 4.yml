@@ -32,17 +32,17 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link linktype="internal" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" querystring="" target="" class="" text="Expert advice" title=""/>
+        <link class="" querystring="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" target="" title="" linktype="internal" text="Expert advice" url="/industry-verticals/forma-lux/Home/Zzz_old/The Lumina Collection" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2079690c-2ac9-4f0d-8996-672ceed5a3e7"
+      Value: "2b814bf5-9c2a-4b81-a436-4c9ad7f9715a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260501T025433Z
+      Value: 20260504T032753Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -64,10 +64,10 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link class="" querystring="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" target="" title="" linktype="internal" text="La Colección Lumina" />
+        <link class="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" querystring="" anchor="" target="" title="" linktype="internal" text="La Colección Lumina" url="/industry-verticals/forma-lux/Home/Zzz_old/The Lumina Collection" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "8f1c5f24-1fce-42b9-9986-013fd771195b"
+      Value: "c450d8c8-3747-4ae7-a367-8a94733d0d29"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
@@ -77,7 +77,7 @@ Languages:
         sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260501T025416Z
+      Value: 20260504T032753Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -99,10 +99,10 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link class="" querystring="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" target="" title="" linktype="internal" text="La Collection Lumina" />
+        <link class="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" querystring="" anchor="" target="" title="" linktype="internal" text="La Collection Lumina" url="/industry-verticals/forma-lux/Home/Zzz_old/The Lumina Collection" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a959f78d-3e80-49db-80fc-3535d5d699ce"
+      Value: "5c92b393-14b8-4003-9bcf-54a6a38339c8"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
@@ -112,7 +112,7 @@ Languages:
         sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260501T025416Z
+      Value: 20260504T032753Z
 - Language: "fr-FR"
   Versions:
   - Version: 1
@@ -134,10 +134,10 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link class="" querystring="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" target="" title="" linktype="internal" text="La Collection Lumina" />
+        <link class="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" querystring="" anchor="" target="" title="" linktype="internal" text="La Collection Lumina" url="/industry-verticals/forma-lux/Home/Zzz_old/The Lumina Collection" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b0fbc870-610c-4fbf-bc34-6578aa608cf9"
+      Value: "f6cd41cf-79af-4a6f-b2d6-e15201701ec9"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
@@ -147,4 +147,4 @@ Languages:
         sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260501T025416Z
+      Value: 20260504T032753Z

@@ -32,17 +32,17 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link linktype="internal" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" querystring="" target="" class="" text="Fees and costs" title=""/>
+        <link class="" querystring="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" target="" title="" linktype="internal" text="Fees and costs" url="/industry-verticals/forma-lux/Home/Zzz_old/The Lumina Collection" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3561bf12-868e-417e-8300-9c94fe01ef0a"
+      Value: "43c04962-e54f-465e-861a-ddd455e4a03d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260501T025321Z
+      Value: 20260504T032751Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -64,10 +64,10 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link class="" querystring="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" target="" title="" linktype="internal" text="La Colección Lumina" />
+        <link class="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" querystring="" anchor="" target="" title="" linktype="internal" text="La Colección Lumina" url="/industry-verticals/forma-lux/Home/Zzz_old/The Lumina Collection" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c194af30-1aea-4bfc-88bf-8497357ee754"
+      Value: "a3b00bb6-fc76-4fd3-8ab2-2d35847b7d78"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
@@ -77,7 +77,7 @@ Languages:
         sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260501T025152Z
+      Value: 20260504T032752Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -99,10 +99,10 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link class="" querystring="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" target="" title="" linktype="internal" text="La Collection Lumina" />
+        <link class="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" querystring="" anchor="" target="" title="" linktype="internal" text="La Collection Lumina" url="/industry-verticals/forma-lux/Home/Zzz_old/The Lumina Collection" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "22d4df5a-f193-4c75-8674-cc0588618c71"
+      Value: "e34233c5-6def-4be7-8b52-eb77f921d984"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
@@ -112,7 +112,7 @@ Languages:
         sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260501T025153Z
+      Value: 20260504T032752Z
 - Language: "fr-FR"
   Versions:
   - Version: 1
@@ -134,10 +134,10 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link class="" querystring="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" target="" title="" linktype="internal" text="La Collection Lumina" />
+        <link class="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" querystring="" anchor="" target="" title="" linktype="internal" text="La Collection Lumina" url="/industry-verticals/forma-lux/Home/Zzz_old/The Lumina Collection" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d37b8f3a-bbfe-4d83-b6ec-275ca64e28a8"
+      Value: "d9e097ba-f7ab-4962-9f07-6e04686d814f"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
@@ -147,4 +147,4 @@ Languages:
         sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260501T025153Z
+      Value: 20260504T032752Z

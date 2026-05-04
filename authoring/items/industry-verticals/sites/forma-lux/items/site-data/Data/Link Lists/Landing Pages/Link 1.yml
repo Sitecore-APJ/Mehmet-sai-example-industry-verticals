@@ -36,17 +36,17 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link linktype="external" url="https://www.google.com/" target="_blank" text="Google Search"/>
+        <link linktype="internal" id="5a4b3072dd9d4cc38d3232a51e41757c" anchor="" querystring="" target="" class="" text="For Employers" title=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "2ca0f741-8ae3-4bae-a7d3-735307135697"
+      Value: "e459926b-ef8a-4a48-a806-5dd94bdfc4c1"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251201T092934Z
+      Value: 20260504T033102Z
 - Language: "es-ES"
   Versions:
   - Version: 1

@@ -32,17 +32,17 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link linktype="internal" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" querystring="" target="" class="" text="The Lumina Collection" title=""/>
+        <link linktype="internal" id="5b1e0227ffb34318abc0eec9ee57a445" anchor="" querystring="" target="" class="" text="For Advisers" title=""/>
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3a647ad5-abf8-40a4-b88b-81aac0abe448"
+      Value: "7b4ea4c5-4c46-4c61-b656-b9cb009e2557"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251201T094420Z
+      Value: 20260504T033122Z
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -64,20 +64,20 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link class="" querystring="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" target="" title="" linktype="internal" text="La Colección Lumina" />
+        <link class="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" querystring="" anchor="" target="" title="" linktype="internal" text="La Colección Lumina" url="/industry-verticals/forma-lux/Home/Zzz_old/The Lumina Collection" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b1a5df05-dfff-4519-bfbf-e463ff1818c6"
+      Value: "e64344cf-1873-4c66-9023-fe2506520748"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251219T104455Z
+      Value: 20260504T032754Z
 - Language: "fr-CA"
   Versions:
   - Version: 1
@@ -99,20 +99,20 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link class="" querystring="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" target="" title="" linktype="internal" text="La Collection Lumina" />
+        <link class="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" querystring="" anchor="" target="" title="" linktype="internal" text="La Collection Lumina" url="/industry-verticals/forma-lux/Home/Zzz_old/The Lumina Collection" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "f760336b-267a-45ba-99b2-2e6e61911467"
+      Value: "fb6fdc49-d8ea-430a-9a58-f3aea4218ebc"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T110306Z
+      Value: 20260504T032754Z
 - Language: "fr-FR"
   Versions:
   - Version: 1
@@ -134,17 +134,17 @@ Languages:
     - ID: "68c2a603-f98e-42a3-be2d-dd70598c2a63"
       Hint: Link
       Value: |
-        <link class="" querystring="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" anchor="" target="" title="" linktype="internal" text="La Collection Lumina" />
+        <link class="" id="ea0d13b1-0e92-4e4a-a2c6-dbc76a790be9" querystring="" anchor="" target="" title="" linktype="internal" text="La Collection Lumina" url="/industry-verticals/forma-lux/Home/Zzz_old/The Lumina Collection" />
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9f4f4937-0bd4-4d3a-85eb-bf4fc4e69d24"
+      Value: "f6964ca2-bc40-4b5e-851c-96ca58b482cd"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251217T104130Z
+      Value: 20260504T032754Z

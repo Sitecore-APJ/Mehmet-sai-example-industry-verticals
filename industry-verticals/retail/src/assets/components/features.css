@@ -1,0 +1,95 @@
+/*
+ * CareSuper-style three-column benefits (`features2`): centred columns, navy headings, grey body, blue links.
+ */
+.features-section--caresuper-benefits {
+  @apply bg-background;
+}
+
+/*
+ * Icons: Sitecore / next/image often wraps <img> in <span> and sets large intrinsic width/height.
+ * Tall SVGs then blow past max-width-only caps — constrain BOTH axes with !important + fixed slot.
+ */
+.features-caresuper-benefits__icon {
+  display: flex;
+  height: 5.5rem;
+  width: 11rem;
+  max-width: 100%;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .features-caresuper-benefits__icon {
+    height: 6.25rem;
+    width: 12.5rem;
+  }
+}
+
+.features-caresuper-benefits__icon > span,
+.features-caresuper-benefits__icon picture {
+  display: flex !important;
+  max-height: 5.5rem !important;
+  max-width: 11rem !important;
+  align-items: center;
+  justify-content: center;
+  line-height: 0 !important;
+}
+
+@media (min-width: 768px) {
+  .features-caresuper-benefits__icon > span,
+  .features-caresuper-benefits__icon picture {
+    max-height: 6.25rem !important;
+    max-width: 12.5rem !important;
+  }
+}
+
+.features-caresuper-benefits__icon img,
+.features-caresuper-benefits__icon-img {
+  max-height: 5.5rem !important;
+  max-width: 11rem !important;
+  width: auto !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+@media (min-width: 768px) {
+  .features-caresuper-benefits__icon img,
+  .features-caresuper-benefits__icon-img {
+    max-height: 6.25rem !important;
+    max-width: 12.5rem !important;
+  }
+}
+
+section#features2 .features-caresuper-benefits__icon img,
+section#features2 .features-caresuper-benefits__icon-img {
+  max-height: 5.5rem !important;
+  max-width: 11rem !important;
+}
+
+@media (min-width: 768px) {
+  section#features2 .features-caresuper-benefits__icon img,
+  section#features2 .features-caresuper-benefits__icon-img {
+    max-height: 6.25rem !important;
+    max-width: 12.5rem !important;
+  }
+}
+
+.features-caresuper-benefits__title {
+  font-family: var(--font-heading);
+  color: #003776;
+}
+
+.features-caresuper-benefits__body {
+  color: #4b5563;
+}
+
+.features-caresuper-benefits__body a {
+  color: #2563eb;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.features-caresuper-benefits__body a:hover {
+  color: #1d4ed8;
+}
