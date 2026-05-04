@@ -40,12 +40,18 @@ type FeatureWrapperProps = {
   children: React.ReactNode;
 };
 
+const featuresSectionGradient = 'bg-gradient-to-r from-[#E0FBF2] to-[#66FF75] py-[20px]';
+
 const FeatureWrapper = (wrapperProps: FeatureWrapperProps) => {
   // rendering item id
   const id = wrapperProps.props.params.RenderingIdentifier;
+  const isFeaturesId = id === 'features';
 
   return (
-    <section className={`${wrapperProps.props.params.styles}`} id={id ? id : undefined}>
+    <section
+      className={`${isFeaturesId ? `${featuresSectionGradient} ` : ''}${wrapperProps.props.params.styles}`}
+      id={id ? id : undefined}
+    >
       {wrapperProps.children}
     </section>
   );
