@@ -16,7 +16,7 @@ SharedFields:
     <image mediaid="{9E63251A-64C3-4C17-AF21-1254DAAA412B}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "8769c372-4142-4a8d-8037-3ceb8f61efcf"
+  Value: "6151fea8-da2c-45c3-87bc-cf9aa465582d"
 - ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
   Hint: __Renderings
   Value: |
@@ -32,8 +32,15 @@ SharedFields:
           s:par="FieldNames=%7B7879B10B-EA4F-4396-8B9C-D36BFE6206B3%7D&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D"
           s:ph="/headless-main/promo-content-3" />
         <r
-          uid="{C84E205E-3C04-4D5C-A623-5990755BD957}"
+          uid="{99C56D3B-BE42-4BFC-9005-2FC96679B891}"
           p:after="r[@uid='{980DD050-C05D-4588-A3E8-9D8E232C31D2}']"
+          s:ds="756c92c4-91ca-4db3-8a25-01a3a22ae20f"
+          s:id="{810E5B86-932A-4160-8672-C126B545F034}"
+          s:par="FieldNames=%7B7A70DBCE-34F4-4720-8E9F-F2D39F531FF6%7D&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=5"
+          s:ph="/headless-main/content-section-content-4" />
+        <r
+          uid="{C84E205E-3C04-4D5C-A623-5990755BD957}"
+          p:after="r[@uid='{99C56D3B-BE42-4BFC-9005-2FC96679B891}']"
           s:ds="86ec8941-de8d-46d0-9290-982ae81064ae"
           s:id="{B49CF2D7-7CB2-4918-8F38-2607D956D995}"
           s:par="FieldNames&amp;RenderingIdentifier&amp;Styles&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;DynamicPlaceholderId=1"
@@ -102,6 +109,39 @@ Languages:
               <p:d />
             </r>
             <r
+              uid="{DE1E100D-B512-4CFD-AE11-7845CF84498B}">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{70F7975F-4088-4448-8544-F03AFF8FB94D}"
+                    s:name="4d545d46e1f4461391e1c29bba3ddc33">
+                    <conditions>
+                      <condition
+                        uid="25B75D7CABF5440F8FE884AA28E5A21A"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="4d545d46e1f4461391e1c29bba3ddc33" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{00434791-2D11-4D89-9B0C-EDB6CB395628}"
+                        s:id="{525C7B5A-8FD2-4B99-89F6-4F3F6D23BB02}"
+                        s:Parameters="FieldNames=%7B4475AE6C-68CF-4E03-B39D-D80DBC77A4C4%7D&amp;RenderingIdentifier&amp;Styles=%7C%7BBC189FF0-FD22-457F-BB08-150B7D751F49%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="EF91DAFE675D4B46815578F636013446"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
+            <r
               uid="{CE910DEB-15CF-4681-BB79-BBDD8900D9D3}"
               s:par="GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D&amp;FieldNames&amp;Styles=%7C%7B51EAE422-AB43-4D19-B305-AC294DE8849F%7D%7C%7BF8C308A7-E2B4-498E-AE58-B2DFCE7583BD%7D%7C%7B8D53421C-9150-49E3-B2E0-AC3C44EA54F5%7D%7C%7BBC189FF0-FD22-457F-BB08-150B7D751F49%7D&amp;RenderingIdentifier&amp;CSSStyles&amp;DynamicPlaceholderId=7" />
           </d>
@@ -125,11 +165,11 @@ Languages:
         sitecore\movin.tilakaratne@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "90f3a042-c9de-4a07-adc4-d75faee26fb0"
+      Value: "d99bc667-df2c-469e-b9bc-e36b53d27e25"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\isuru.bandara@sitecore.com
+        sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260313T075200Z
+      Value: 20260305T221404Z

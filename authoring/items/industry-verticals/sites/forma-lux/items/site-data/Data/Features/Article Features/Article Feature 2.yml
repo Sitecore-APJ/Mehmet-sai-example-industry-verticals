@@ -7,13 +7,13 @@ SharedFields:
 - ID: "83bc80ee-e97a-474b-8c05-a2559394eebe"
   Hint: FeatureImage
   Value: |
-    <image mediaid="f9aa0bbe-a308-4ded-a641-8cef763ef70e" />
+    <image mediaid="35252ebb-3172-4c75-8dcc-adc2b09669bc" />
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 50
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "806acabf-bdd8-42fa-a082-ec6e7669a8a8"
+  Value: "48b3bf11-8374-429b-b3cf-9c03fc95ceca"
 Languages:
 - Language: en
   Versions:
@@ -41,14 +41,14 @@ Languages:
       Value: Bringing the Outdoors In 
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "a63c2a88-9871-4568-aa6b-60f50ba506d7"
+      Value: "887b6626-64d7-42f6-a665-bd6ca37f972a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\movin.tilakaratne@sitecore.com
+        sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250915T105549Z
+      Value: 20260501T040538Z
 - Language: "es-ES"
   Versions:
   - Version: 1

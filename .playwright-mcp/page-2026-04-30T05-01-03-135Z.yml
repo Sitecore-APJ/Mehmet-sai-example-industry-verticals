@@ -1,0 +1,368 @@
+- generic [active] [ref=e1]:
+  - region "Quick Accessibility Options":
+    - button "Skip to main content" [ref=e413] [cursor=pointer]:
+      - generic [ref=e414]:
+        - img [ref=e416]
+        - generic [ref=e420]: Skip to main content
+      - img [ref=e422]
+    - button "Enable accessibility for low vision" [ref=e427] [cursor=pointer]:
+      - generic [ref=e428]:
+        - img [ref=e430]
+        - generic [ref=e437]: Enable accessibility for low vision
+      - img [ref=e439]
+    - button "Open the accessibility menu" [ref=e444] [cursor=pointer]:
+      - generic [ref=e445]:
+        - img [ref=e447]
+        - generic [ref=e449]: Open the accessibility menu
+      - img [ref=e451]
+  - generic "Accessibility Menu":
+    - button "Accessibility Menu" [ref=e457] [cursor=pointer]
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e11]:
+        - generic [ref=e13]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "For Members" [ref=e21] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e22]:
+              - link "For Employers" [ref=e24] [cursor=pointer]:
+                - /url: /employers
+            - listitem [ref=e25]:
+              - link "For Advisers" [ref=e27] [cursor=pointer]:
+                - /url: /advisers
+          - generic [ref=e28]:
+            - list [ref=e32]:
+              - listitem [ref=e33]:
+                - link "Forms & Publications" [ref=e35] [cursor=pointer]:
+                  - /url: /members/advice-and-resources/forms-and-publications
+              - listitem [ref=e36]:
+                - link "Contact Us" [ref=e38] [cursor=pointer]:
+                  - /url: /members/contact-us
+              - listitem [ref=e39]:
+                - link "About Us" [ref=e41] [cursor=pointer]:
+                  - /url: /members/about-us
+              - listitem [ref=e42]:
+                - link "call 1800005166" [ref=e460] [cursor=pointer]:
+                  - /url: tel:1800005166
+                  - text: 1800 005 166
+            - generic [ref=e49]:
+              - textbox "Search here..." [ref=e50]
+              - button "Search" [ref=e51] [cursor=pointer]
+        - generic [ref=e53]:
+          - link "Open this option" [ref=e461] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e56]:
+            - navigation [ref=e61]:
+              - list [ref=e64]:
+                - listitem [ref=e65]:
+                  - link "Why us" [ref=e66] [cursor=pointer]:
+                    - /url: /members/why-choose-us
+                - listitem [ref=e67]:
+                  - link "Super" [ref=e68] [cursor=pointer]:
+                    - /url: /members/super
+                - listitem [ref=e69]:
+                  - link "Investments" [ref=e70] [cursor=pointer]:
+                    - /url: /members/investments
+                - listitem [ref=e71]:
+                  - link "Retirement" [ref=e72] [cursor=pointer]:
+                    - /url: /members/retirement
+                - listitem [ref=e73]:
+                  - link "Advice and Resources" [ref=e74] [cursor=pointer]:
+                    - /url: /members/advice-and-resources
+            - list [ref=e79]:
+              - listitem [ref=e80]:
+                - link "Login" [ref=e82] [cursor=pointer]:
+                  - /url: https://online.caresuper.com.au/aol/
+              - listitem [ref=e83]:
+                - link "Join now" [ref=e85] [cursor=pointer]:
+                  - /url: https://online.caresuper.com.au/join
+    - main [ref=e87]:
+      - generic [ref=e89]:
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - img "green spark" [ref=e93]
+            - img "a happy smiling man" [ref=e94]
+            - generic [ref=e95]:
+              - heading "Service you expect. Care you deserve." [level=1] [ref=e97]:
+                - generic [ref=e98]: Service you expect.
+                - generic [ref=e99]: Care you deserve.
+              - heading "Real people, real results, real super." [level=5] [ref=e101]
+              - generic [ref=e102]:
+                - link "Join now" [ref=e103] [cursor=pointer]:
+                  - /url: https://online.caresuper.com.au/aol/index.html#Join
+                - link "Why choose us?" [ref=e104] [cursor=pointer]:
+                  - /url: /members/why-choose-us
+          - list [ref=e109]:
+            - listitem [ref=e110]:
+              - link "icon" [ref=e462] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img "icon" [ref=e463]
+              - link "Member benefits" [ref=e112] [cursor=pointer]:
+                - /url: /members/why-choose-us/member-benefits?utm_source=hme_pg&utm_medium=mb_ql&utm_campaign=pers_acq
+            - listitem [ref=e113]:
+              - link "wallet icon" [ref=e114] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img "wallet icon" [ref=e115]
+              - link "Fees and costs" [ref=e116] [cursor=pointer]:
+                - /url: /members/why-choose-us/fees-and-costs?utm_source=hme_pg&utm_medium=mb_ql&utm_campaign=pers_acq
+            - listitem [ref=e117]:
+              - link "icon" [ref=e464] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img "icon" [ref=e465]
+              - link "Investment options" [ref=e119] [cursor=pointer]:
+                - /url: /members/investments/investment-options?utm_source=hme_pg&utm_medium=io_ql&utm_campaign=pers_acq
+            - listitem [ref=e120]:
+              - link "icon" [ref=e466] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img "icon" [ref=e467]
+              - link "Expert advice" [ref=e122] [cursor=pointer]:
+                - /url: /members/advice-and-resources/get-super-advice?utm_source=hme_pg&utm_medium=ea_ql&utm_campaign=pers_acq
+            - listitem [ref=e123]:
+              - link "bullet list icon" [ref=e124] [cursor=pointer]:
+                - /url: javascript:void(0)
+                - img "bullet list icon" [ref=e125]
+              - link "Fund USI & ABN" [ref=e126] [cursor=pointer]:
+                - /url: /members/super/changing-jobs/fund-usi-abn
+        - generic [ref=e133]:
+          - generic [ref=e139]:
+            - link "growing chart" [ref=e140] [cursor=pointer]:
+              - /url: /members/investments/investment-performance
+              - img "growing chart" [ref=e141]
+            - generic [ref=e143]:
+              - link "Years of strong performance" [ref=e144] [cursor=pointer]:
+                - /url: /members/investments/investment-performance
+                - heading "Years of strong performance" [level=4] [ref=e145]
+              - paragraph [ref=e146]:
+                - text: Our
+                - link "strong long-term performance" [ref=e147] [cursor=pointer]:
+                  - /url: /members/investments/investment-performance
+                - superscript [ref=e148]: "1"
+                - text: helps you retire with more.
+          - generic [ref=e154]:
+            - link "Coin with magnifying glass" [ref=e155] [cursor=pointer]:
+              - /url: /members/why-choose-us/fees-and-costs
+              - img "Coin with magnifying glass" [ref=e156]
+            - generic [ref=e158]:
+              - link "Competitive fees" [ref=e159] [cursor=pointer]:
+                - /url: /members/why-choose-us/fees-and-costs
+                - heading "Competitive fees" [level=4] [ref=e160]
+              - link "No hidden fees" [ref=e161] [cursor=pointer]:
+                - /url: /members/why-choose-us/fees-and-costs
+              - text: + profits to members = more super for you.
+          - generic [ref=e167]:
+            - link "advice just for you" [ref=e168] [cursor=pointer]:
+              - /url: /members/advice-and-resources/get-super-advice
+              - img "advice just for you" [ref=e169]
+            - generic [ref=e171]:
+              - link "Local support, real people" [ref=e172] [cursor=pointer]:
+                - /url: /members/advice-and-resources/get-super-advice
+                - heading "Local support, real people" [level=4] [ref=e173]
+              - link "Award-winning help" [ref=e174] [cursor=pointer]:
+                - /url: /members/advice-and-resources/get-super-advice
+              - text: from real people who truly care.
+              - superscript [ref=e175]: "2"
+        - generic [ref=e178]:
+          - generic [ref=e180]:
+            - link "Photo of a young happy member" [ref=e182] [cursor=pointer]:
+              - /url: /members/super/combine-super
+              - img "Photo of a young happy member" [ref=e183]
+            - generic [ref=e184]:
+              - link "Combine your super It’s quick, easy, and could save you on fees." [ref=e186] [cursor=pointer]:
+                - /url: /members/super/combine-super
+                - heading "Combine your super" [level=4] [ref=e187]
+                - paragraph [ref=e188]: It’s quick, easy, and could save you on fees.
+              - link "Find my super" [ref=e190] [cursor=pointer]:
+                - /url: /members/super/combine-super
+          - generic [ref=e192]:
+            - link "two happy woman are taking selfies" [ref=e194] [cursor=pointer]:
+              - /url: /members/retirement/income-options
+              - img "two happy woman are taking selfies" [ref=e195]
+            - generic [ref=e196]:
+              - link "Pay that never retires Enjoy reliable payments and peace of mind in retirement." [ref=e198] [cursor=pointer]:
+                - /url: /members/retirement/income-options
+                - heading "Pay that never retires" [level=4] [ref=e199]
+                - paragraph [ref=e200]: Enjoy reliable payments and peace of mind in retirement.
+              - link "See your options" [ref=e202] [cursor=pointer]:
+                - /url: /members/retirement/income-options
+          - generic [ref=e204]:
+            - link "a happy couple enjoying the nature view" [ref=e206] [cursor=pointer]:
+              - /url: /members/advice-and-resources/get-super-advice
+              - img "a happy couple enjoying the nature view" [ref=e207]
+            - generic [ref=e208]:
+              - link "Advice when you need it With three levels of financial advice, it’s tailored to your super needs." [ref=e210] [cursor=pointer]:
+                - /url: /members/advice-and-resources/get-super-advice
+                - heading "Advice when you need it" [level=4] [ref=e211]
+                - paragraph [ref=e212]: With three levels of financial advice, it’s tailored to your super needs.
+              - link "Get advice" [ref=e214] [cursor=pointer]:
+                - /url: /members/advice-and-resources/get-super-advice
+        - generic [ref=e217]:
+          - heading "Your award-winning superannuation fund" [level=3] [ref=e218]
+          - paragraph [ref=e219]:
+            - link "View our awards" [ref=e220] [cursor=pointer]:
+              - /url: /members/why-choose-us/awards
+        - generic [ref=e224]:
+          - img "Caresuper Award logos" [ref=e225]
+          - img "Caresuper Award logos" [ref=e226]
+        - generic [ref=e234]:
+          - generic [ref=e236]:
+            - heading "Latest news" [level=3] [ref=e237]
+            - link "more Latest news" [ref=e468] [cursor=pointer]:
+              - /url: /members/advice-and-resources/news
+              - text: more
+          - generic [ref=e239]:
+            - link "What recent global events mean for you - and how CareSuper supports you 23 March, 2026" [ref=e469] [cursor=pointer]:
+              - /url: /members/advice-and-resources/news/what-recent-global-events-mean-for-you-and-how-CareSuper-supports-you
+              - generic [ref=e244]:
+                - heading "What recent global events mean for you - and how CareSuper supports you" [level=4] [ref=e245]
+                - paragraph [ref=e246]: 23 March, 2026
+            - region "scrollable content" [ref=e252]:
+              - generic [ref=e254]:
+                - link "Investment update - period 1 January to 31 March 2026 30 April, 2026" [ref=e470] [cursor=pointer]:
+                  - /url: /members/advice-and-resources/news/investment-update-march-quarter-2026
+                  - generic [ref=e258]:
+                    - heading "Investment update - period 1 January to 31 March 2026" [level=4] [ref=e259]
+                    - paragraph [ref=e260]: 30 April, 2026
+                - link "Navigating volatility to protect your future 20 April, 2026" [ref=e471] [cursor=pointer]:
+                  - /url: /members/advice-and-resources/news/navigating-volatility-to-protect-your-future
+                  - generic [ref=e264]:
+                    - heading "Navigating volatility to protect your future" [level=4] [ref=e265]
+                    - paragraph [ref=e266]: 20 April, 2026
+                - link "Why your super needs some cash...but balance is key 20 March, 2026" [ref=e472] [cursor=pointer]:
+                  - /url: /members/advice-and-resources/news/why-your-super-needs-some-cash-but-balance-is-key
+                  - generic [ref=e270]:
+                    - heading "Why your super needs some cash...but balance is key" [level=4] [ref=e271]
+                    - paragraph [ref=e272]: 20 March, 2026
+        - heading "Disclosures and Important Information" [level=4] [ref=e277]:
+          - button "Disclosures and Important Information" [ref=e278] [cursor=pointer]
+        - generic [ref=e283]:
+          - paragraph [ref=e286]: It is important to remain vigilant of your personal information. If you have any concerns, or if you have noted any suspicious activity, please contact us immediately.
+          - link "Learn more about staying safe" [ref=e288] [cursor=pointer]:
+            - /url: /members/advice-and-resources/fraud-and-scams
+    - contentinfo [ref=e292]:
+      - generic [ref=e294]:
+        - generic [ref=e301]:
+          - heading "Support you can count on" [level=3] [ref=e303]
+          - generic [ref=e305]:
+            - link "call 1800 005 166" [ref=e473] [cursor=pointer]:
+              - /url: tel:1800 005 166
+              - text: 1800 005 166
+            - paragraph [ref=e307]:
+              - text: 8am – 7pm, Monday - Friday
+              - text: (AEST/AEDT)
+          - generic [ref=e309]:
+            - link "Enquire online" [ref=e310] [cursor=pointer]:
+              - /url: /members/contact-us
+            - paragraph [ref=e311]: Complete the form and we’ll get back to you
+          - generic [ref=e313]:
+            - link "Contact Us" [ref=e314] [cursor=pointer]:
+              - /url: /members/contact-us
+            - paragraph [ref=e315]: Get all our details
+        - generic [ref=e318]:
+          - heading "CareSuper app" [level=3] [ref=e320]
+          - paragraph [ref=e322]: Download the CareSuper app and manage your account on the go!
+          - generic [ref=e324]:
+            - link "apps.apple.com" [ref=e474] [cursor=pointer]:
+              - /url: https://apps.apple.com/au/app/caresuper/id1409544432
+            - link "caresuper.com.au" [ref=e475] [cursor=pointer]:
+              - /url: https://caresuper.com.au/google-play-store
+        - generic [ref=e329]:
+          - navigation [ref=e334]:
+            - list [ref=e335]:
+              - listitem [ref=e336]:
+                - link "About us" [ref=e338] [cursor=pointer]:
+                  - /url: /members/about-us
+              - listitem [ref=e339]:
+                - link "Careers" [ref=e341] [cursor=pointer]:
+                  - /url: /members/careers
+              - listitem [ref=e342]:
+                - link "Complaints handling" [ref=e344] [cursor=pointer]:
+                  - /url: /members/complaints
+              - listitem [ref=e345]:
+                - link "Keeping your information safe" [ref=e347] [cursor=pointer]:
+                  - /url: /members/keeping-your-information-safe
+              - listitem [ref=e348]:
+                - link "Terms of use" [ref=e350] [cursor=pointer]:
+                  - /url: /members/terms-of-use
+              - listitem [ref=e351]:
+                - link "Accessibility statement" [ref=e353] [cursor=pointer]:
+                  - /url: /members/accessibility-statement
+              - listitem [ref=e354]:
+                - link "Privacy Policy" [ref=e356] [cursor=pointer]:
+                  - /url: /members/privacy-policy
+              - listitem [ref=e357]:
+                - link "FAQs" [ref=e359] [cursor=pointer]:
+                  - /url: /members/faqs
+          - generic [ref=e364]:
+            - heading "FUND DETAILS" [level=6] [ref=e365]
+            - paragraph [ref=e366]: "Fund USI: MTA0100AU"
+            - paragraph [ref=e367]: "Fund name: CareSuper"
+            - paragraph [ref=e368]: "Fund ABN: 74 559 365 913"
+            - paragraph [ref=e369]:
+              - link "industry superfund membership" [ref=e370] [cursor=pointer]:
+                - /url: /members/why-choose-us/what-makes-an-industry-superfund-different
+                - img "industry superfund membership" [ref=e371]
+        - generic [ref=e372]:
+          - generic [ref=e376]:
+            - heading "OUR AWARDS" [level=6] [ref=e377]
+            - link "Visit our Awards page" [ref=e380] [cursor=pointer]:
+              - /url: /members/why-choose-us/awards
+              - img "Super Ratings award" [ref=e381]
+              - img "20 Year Platinum Performance award" [ref=e382]
+              - img "ESG award" [ref=e383]
+              - img "Chant West award 2" [ref=e384]
+              - img "Chant West award 1" [ref=e385]
+          - generic [ref=e389]:
+            - heading "CONNECT WITH US" [level=6] [ref=e390]
+            - generic [ref=e391]:
+              - link "Facebook - open in a new tab" [ref=e476] [cursor=pointer]:
+                - /url: https://www.facebook.com/TheCareSuper
+              - link "Instagram - open in a new tab" [ref=e477] [cursor=pointer]:
+                - /url: https://www.instagram.com/caresuperofficial
+              - link "LinkedIn - open in a new tab" [ref=e478] [cursor=pointer]:
+                - /url: https://au.linkedin.com/company/caresuper
+              - link "YouTube - open in a new tab" [ref=e479] [cursor=pointer]:
+                - /url: https://www.youtube.com/user/caresuper
+        - generic [ref=e397]:
+          - paragraph:
+            - link "spiritsuper.com.au":
+              - /url: https://spiritsuper.com.au/-/media/project/shared/files/compliance/spirit-super-financial-services-guide.pdf?la=en&hash=7BD277A673560B45375FBF0EA8A081DB
+          - paragraph [ref=e398]:
+            - strong [ref=e399]: We acknowledge and pay our respects to Aboriginal and Torres Strait Islander Peoples as the First Peoples of Australia, whose ancestral lands and waters we work and live on throughout Australia. We honour the wisdom of, and pay respects to, Elders past and present.
+          - paragraph [ref=e400]: This is general information only and doesn’t take into account your objectives, financial situation or needs. Before making a decision about CareSuper, you should consider if this information is right for you. You may also wish to consult a licensed financial adviser.
+          - paragraph [ref=e401]:
+            - text: Before making a decision about CareSuper, you should consider if this information is right for you and read our
+            - link "Product disclosure statement" [ref=e402] [cursor=pointer]:
+              - /url: /members/advice-and-resources/forms-and-publications/pds-and-tmds
+            - text: ","
+            - link "Target market determination" [ref=e403] [cursor=pointer]:
+              - /url: /members/advice-and-resources/forms-and-publications/pds-and-tmds
+            - text: and
+            - link "Financial services guide" [ref=e404] [cursor=pointer]:
+              - /url: /-/media/project/CareSuper/Files/pds-and-tmds/financial-services-guide.pdf?rev=fb6e3dabf2384821a14cc93ce865de49
+            - text: . These are available at
+            - link "caresuper.com.au/pds" [ref=e405] [cursor=pointer]:
+              - /url: /members/advice-and-resources/forms-and-publications/pds-and-tmds
+            - text: or by calling
+            - link "call 1800005166" [ref=e480] [cursor=pointer]:
+              - /url: tel:1800005166
+              - text: 1800 005 166
+            - text: .
+          - paragraph [ref=e407]: Past performance isn’t a reliable indicator of future performance. The value of investments can rise or fall, and investment returns can be positive or negative.
+          - paragraph [ref=e408]:
+            - text: CareSuper Pty Ltd (Trustee) ABN 14 008 650 628, AFSL 238718. CareSuper (Fund) ABN 74 559 365 913. Advice is provided by CareSuper Advice ABN 78 102 167 877, AFSL 284443. Consider the PDS and TMD at
+            - link "caresuper.com.au/pds" [ref=e409] [cursor=pointer]:
+              - /url: /members/advice-and-resources/forms-and-publications/pds-and-tmds
+            - text: . A copy of the Financial services guide for CareSuper is available at
+            - link "caresuper.com.au/fsg" [ref=e410] [cursor=pointer]:
+              - /url: /-/media/project/CareSuper/Files/pds-and-tmds/financial-services-guide.pdf?rev=fb6e3dabf2384821a14cc93ce865de49
+            - text: .
+          - paragraph [ref=e411]: © 2026 CareSuper
+  - iframe [ref=e482]:
+    - button "Chat window is closed, We're online" [ref=f17e2] [cursor=pointer]:
+      - generic [ref=f17e4]: 
+  - button "Give Feedback" [ref=e483] [cursor=pointer]:
+    - generic [ref=e485]: Give Feedback
+  - dialog [ref=e486]:
+    - button [ref=e488] [cursor=pointer]:
+      - img [ref=e489]

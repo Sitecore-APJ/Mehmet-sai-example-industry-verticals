@@ -84,15 +84,24 @@ const FeatureItem = ({
   );
 };
 
+/** Horizontal gradient from reference (pale mint → lime) */
+const featuresSectionGradient = 'bg-gradient-to-r from-[#E0FBF2] to-[#66FF75]';
+
 const DefaultFeatures = ({ fields, params }: FeaturesProps) => {
   const id = params?.RenderingIdentifier;
+  const isFeaturesId = id === 'features';
   const features = fields?.data?.datasource?.children?.results;
   const hideBlobAccent = params?.styles.includes(CommonStyles.HideBlobAccent);
   const useAccentColor = params?.styles.includes(FeatureStyles.UseAccentColor);
 
   return (
-    <section className={`relative py-16 ${params?.styles}`} id={id || undefined}>
-      {!hideBlobAccent && <BlobAccent className="absolute top-16 right-4 z-0" />}
+    <section
+      className={`relative ${isFeaturesId ? `${featuresSectionGradient} py-[20px]` : 'py-16'} ${params?.styles}`}
+      id={id || undefined}
+    >
+      {!hideBlobAccent && !isFeaturesId && (
+        <BlobAccent className="absolute top-16 right-4 z-0" />
+      )}
       <div className="relative z-10 container">
         <div className="max-w-4xl">
           <h2>
@@ -120,11 +129,15 @@ const DefaultFeatures = ({ fields, params }: FeaturesProps) => {
 
 const SimpleFeatures = ({ fields, params }: FeaturesProps) => {
   const id = params?.RenderingIdentifier;
+  const isFeaturesId = id === 'features';
   const features = fields?.data?.datasource?.children?.results;
   const useAccentColor = params?.styles.includes(FeatureStyles.UseAccentColor);
 
   return (
-    <div className={`relative ${params?.styles}`} id={id || undefined}>
+    <div
+      className={`relative ${isFeaturesId ? `${featuresSectionGradient} py-[20px]` : ''} ${params?.styles}`}
+      id={id || undefined}
+    >
       <ul className="grid gap-6">
         {features?.map((feature) => (
           <FeatureItem
